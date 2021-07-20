@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "sen", sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9ced3;
+}
+
+.container {
+  width: 480px;
+  height: 630px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px 2px rgba(0, 0, 0, 0.404);
+}
+
+/* Form */
+form {
+  width: 90%;
+}
+
+.form-group {
+  height: 65px;
+  font-family: "sen", sans-serif;
+}
+
+label {
+  position: relative;
+  bottom: 3px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-family: "Sen", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.863);
+}
+
+.message-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: black;
+}
